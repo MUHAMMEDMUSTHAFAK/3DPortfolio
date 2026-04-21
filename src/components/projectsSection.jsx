@@ -1,11 +1,13 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import ecomImg from "../assets/ecom.png";
+import empImg from "../assets/emp.png";
 
 const projects = [
   {
     id: 1,
     title: "Covera(E-commerce platform)",
     description: "A online store for selling mobile covers.",
-    image: "/src/assets/ecom.png",
+    image: ecomImg,
     tags: ["HTML", "Bootstrap"],
     demoUrl: "https://phonecasestore.netlify.app/",
     githubUrl: "https://github.com/MUHAMMEDMUSTHAFAK/caseshop.git",
@@ -15,7 +17,7 @@ const projects = [
     title: "Employee Management System",
     description:
       "A full-stack employee management system designed to efficiently handle employee records, roles, and workflows with a clean UI.",
-    image: "/src/assets/emp.png",
+    image: empImg,
     tags: [
       "React.js",
       "Tailwindcss",
@@ -29,6 +31,7 @@ const projects = [
     demoUrl: "https://ems-gilt-nine.vercel.app/login",
     githubUrl: "https://github.com/MUHAMMEDMUSTHAFAK/ems.git",
   },
+
   // {
   //   id: 3,
   //   title: "API fetching landing page",
